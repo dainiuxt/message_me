@@ -1,5 +1,5 @@
 <h3 class="ui center aligned icon header">
-	Welcome to <i>MessageMe</i></h3>
+	Welcome to <em>MessageMe</em></h3>
   <h3 class="ui center aligned icon header"><i class="circular bullhorn icon teal inverted relaxed"></i></h3>
 <h4 class="ui center aligned header">
 	Log in or Sign up to continue
@@ -27,10 +27,7 @@
       <% end %>
     </div>
     <div class="middle aligned column">
-      <div class="ui big button">
-        <i class="signup icon teal"></i>
-        Sign Up
-      </div>
+      <%= link_to 'Sign Up', signup_path, class: "ui big button signup icon teal" %>
     </div>
   </div>
   <div class="ui vertical divider">

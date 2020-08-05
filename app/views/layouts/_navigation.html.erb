@@ -7,10 +7,11 @@
         Account <i class="dropdown icon"></i>
         <div class="menu">
           <% if logged_in? %>
+            <%= link_to "Profile", user_path(id: current_user.id), class: "item" %>
             <%= link_to "Log out", logout_path, class: "item", method: :delete %>
           <% else %>
             <%= link_to "Log in", login_path, class: "item" %>
-            <%= link_to "Sign up", login_path, class: "item teal" %>
+            <%= link_to "Sign up", signup_path, class: "item teal" %>
           <% end %>
         </div>
       </div>

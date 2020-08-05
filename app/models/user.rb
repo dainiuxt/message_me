@@ -6,5 +6,5 @@ class User < ApplicationRecord
 	length: { maximum: 110 },
 	format: { with: VALID_EMAIL }
 	has_secure_password
-	has_many :messages
+	has_many :messages, dependent: :destroy
 end
