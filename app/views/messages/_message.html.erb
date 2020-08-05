@@ -1,7 +1,7 @@
 <div class="event">
   <div class="content">
     <div class="summary">
-       <%= message.user.username %>: <%= message[:body] %>
+      [<%= message[:created_at].strftime("%H:%M:%S") %>] <%= message.user.username %>: <%= message[:body] %>
     </div>
   </div>
 </div>

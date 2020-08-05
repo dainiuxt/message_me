@@ -1,24 +1,18 @@
-# README
+# MessageMe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Udemy "The Complete Ruby on Rails Developer Course" section 8
 
-Things you may want to cover:
+Real time chat application.
 
-* Ruby version
+### TO DO
 
-* System dependencies
+* Display message time in chatbox in user local time (get timezone info);
 
-* Configuration
+* After sendidng message, message input field doesnt clears out for some reason (Ubintu+Firefox, local env);
 
-* Database creation
+* Implement Signup functionality.
 
-* Database initialization
+* Logged in user list in sidebar.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/
